@@ -1,0 +1,17 @@
+.main-button {
+	background: var(--1, #3e4d31);
+	color: #fff;
+	font-size: 14px;
+	font-family: Manrope;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	padding: 13px 16px;
+	display: flex;
+	align-items: center;
+	column-gap: 11px;
+	transition: 0.4s;
+	&:hover {
+		background: $hoverColor;
+	}
+}
